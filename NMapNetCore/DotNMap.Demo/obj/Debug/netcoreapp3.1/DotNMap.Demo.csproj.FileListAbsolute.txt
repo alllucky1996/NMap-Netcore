@@ -1,0 +1,16 @@
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\bin\Debug\netcoreapp3.1\DotNMap.Demo.exe
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\bin\Debug\netcoreapp3.1\DotNMap.Demo.deps.json
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\bin\Debug\netcoreapp3.1\DotNMap.Demo.runtimeconfig.json
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\bin\Debug\netcoreapp3.1\DotNMap.Demo.runtimeconfig.dev.json
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\bin\Debug\netcoreapp3.1\DotNMap.Demo.dll
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\bin\Debug\netcoreapp3.1\DotNMap.Demo.pdb
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\bin\Debug\netcoreapp3.1\DotNMap.dll
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\bin\Debug\netcoreapp3.1\DotNMap.pdb
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\obj\Debug\netcoreapp3.1\DotNMap.Demo.csprojAssemblyReference.cache
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\obj\Debug\netcoreapp3.1\DotNMap.Demo.AssemblyInfoInputs.cache
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\obj\Debug\netcoreapp3.1\DotNMap.Demo.AssemblyInfo.cs
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\obj\Debug\netcoreapp3.1\DotNMap.Demo.csproj.CoreCompileInputs.cache
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\obj\Debug\netcoreapp3.1\DotNMap.Demo.csproj.CopyComplete
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\obj\Debug\netcoreapp3.1\DotNMap.Demo.dll
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\obj\Debug\netcoreapp3.1\DotNMap.Demo.pdb
+F:\Project Runing\Git\NMap Netcore\NMapNetCore\DotNMap.Demo\obj\Debug\netcoreapp3.1\DotNMap.Demo.genruntimeconfig.cache

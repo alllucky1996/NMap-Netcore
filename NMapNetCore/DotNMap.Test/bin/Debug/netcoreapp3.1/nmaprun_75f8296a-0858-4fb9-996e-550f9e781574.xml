@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Wed Sep 09 00:17:55 2020 as: &quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -P0 -sSU -top-ports 10 -&#45;traceroute -oX nmaprun_75f8296a-0858-4fb9-996e-550f9e781574.xml scanme.nmap.org -->
+<nmaprun scanner="nmap" args="&quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -P0 -sSU -top-ports 10 -&#45;traceroute -oX nmaprun_75f8296a-0858-4fb9-996e-550f9e781574.xml scanme.nmap.org" start="1599585475" startstr="Wed Sep 09 00:17:55 2020" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="10" services="21-23,25,80,110,139,443,445,3389"/>
+<scaninfo type="udp" protocol="udp" numservices="10" services="53,67,123,135,137-138,161,445,631,1434"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1599585477" endtime="1599585488"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="45.33.32.156" addrtype="ipv4"/>
+<hostnames>
+<hostname name="scanme.nmap.org" type="user"/>
+<hostname name="scanme.nmap.org" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="54"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="54"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="23"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="telnet" method="table" conf="3"/></port>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="53"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="53"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="53"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="54"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="closed" reason="reset" reason_ttl="53"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="54"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3389"><state state="closed" reason="reset" reason_ttl="54"/><service name="ms-wbt-server" method="table" conf="3"/></port>
+<port protocol="udp" portid="53"><state state="closed" reason="port-unreach" reason_ttl="54"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="udp" portid="67"><state state="closed" reason="port-unreach" reason_ttl="54"/><service name="dhcps" method="table" conf="3"/></port>
+<port protocol="udp" portid="123"><state state="open" reason="udp-response" reason_ttl="54"/><service name="ntp" method="table" conf="3"/></port>
+<port protocol="udp" portid="135"><state state="closed" reason="port-unreach" reason_ttl="54"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="udp" portid="137"><state state="closed" reason="port-unreach" reason_ttl="54"/><service name="netbios-ns" method="table" conf="3"/></port>
+<port protocol="udp" portid="138"><state state="closed" reason="port-unreach" reason_ttl="54"/><service name="netbios-dgm" method="table" conf="3"/></port>
+<port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="54"/><service name="snmp" method="table" conf="3"/></port>
+<port protocol="udp" portid="445"><state state="closed" reason="port-unreach" reason_ttl="54"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="udp" portid="631"><state state="closed" reason="port-unreach" reason_ttl="54"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="udp" portid="1434"><state state="closed" reason="port-unreach" reason_ttl="54"/><service name="ms-sql-m" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="192.168.1.1" rtt="1.00"/>
+<hop ttl="2" ipaddr="123.29.4.132" rtt="3.00" host="static.vnpt.vn"/>
+<hop ttl="3" ipaddr="113.171.36.185" rtt="3.00" host="static.vnpt.vn"/>
+<hop ttl="4" ipaddr="113.171.32.185" rtt="16.00" host="static.vnpt.vn"/>
+<hop ttl="5" ipaddr="113.171.32.82" rtt="14.00" host="static.vnpt.vn"/>
+<hop ttl="6" ipaddr="113.171.37.241" rtt="15.00" host="static.vnpt.vn"/>
+<hop ttl="7" ipaddr="63.218.107.245" rtt="38.00" host="be2-10.br04.sin02.pccwbtn.net"/>
+<hop ttl="8" ipaddr="63.223.34.142" rtt="46.00" host="HundredGE0-5-0-0.br03.sin02.pccwbtn.net"/>
+<hop ttl="9" ipaddr="63.223.34.142" rtt="46.00" host="HundredGE0-5-0-0.br03.sin02.pccwbtn.net"/>
+<hop ttl="10" ipaddr="63.218.165.50" rtt="45.00" host="63-218-165-50.static.pccwglobal.net"/>
+<hop ttl="12" ipaddr="180.87.67.33" rtt="122.00" host="if-et-23-2.hcore2.kv8-chiba.as6453.net"/>
+<hop ttl="13" ipaddr="180.87.67.33" rtt="123.00" host="if-et-23-2.hcore2.kv8-chiba.as6453.net"/>
+<hop ttl="14" ipaddr="120.29.211.2" rtt="132.00" host="if-et-1-2.hcore1.kv8-chiba.as6453.net"/>
+<hop ttl="15" ipaddr="209.58.86.142" rtt="227.00" host="if-ae-5-2.tcore2.sv1-santaclara.as6453.net"/>
+<hop ttl="16" ipaddr="63.243.205.72" rtt="233.00" host="if-ae-18-2.tcore1.sqn-sanjose.as6453.net"/>
+<hop ttl="17" ipaddr="216.6.33.114" rtt="200.00"/>
+<hop ttl="18" ipaddr="173.230.159.71" rtt="195.00"/>
+<hop ttl="19" ipaddr="45.33.32.156" rtt="203.00" host="scanme.nmap.org"/>
+</trace>
+<times srtt="278205" rttvar="140232" to="839133"/>
+</host>
+<runstats><finished time="1599585502" timestr="Wed Sep 09 00:18:22 2020" elapsed="28.08" summary="Nmap done at Wed Sep 09 00:18:22 2020; 1 IP address (1 host up) scanned in 28.08 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

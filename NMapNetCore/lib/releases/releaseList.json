@@ -1,0 +1,19 @@
+[
+  {
+    "Id": "0",
+    "Name": "Demo and Type Library",
+    "DevelopmentStatus": "Stable",
+    "Description": "First and likely only release as this is just a type library.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2012-08-28T19:33:38.1-07:00",
+    "Files": [
+      {
+        "Id": "7a0e9eb4-7d65-4d6b-a51d-33f330b43d84",
+        "FileName": "Demo.zip",
+        "Url": "./0/7a0e9eb4-7d65-4d6b-a51d-33f330b43d84",
+        "Type": "Application",
+        "UploadDate": "2012-08-28T19:25:31.783-07:00"
+      }
+    ]
+  }
+]

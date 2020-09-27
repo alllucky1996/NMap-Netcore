@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DotNMap.Demo/1.0.0": {
+        "dependencies": {
+          "DotNMap": "1.0.0"
+        },
+        "runtime": {
+          "DotNMap.Demo.dll": {}
+        }
+      },
+      "DotNMap/1.0.0": {
+        "runtime": {
+          "DotNMap.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNMap.Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNMap/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
