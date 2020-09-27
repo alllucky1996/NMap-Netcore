@@ -1,7 +1,8 @@
 # NMap-Netcore
 source by https://archive.codeplex.com/?p=dotnmap
 CodePlex ArchiveOpen Source Project Archive
-DotNMap
+
+# DotNMap -> NMap-Netcore
 
 A type library that can be used to work with NMap scan results in .net.
 
@@ -22,3 +23,5 @@ The demo then deserializes the xml file into an nmaprun object and dumps it’s 
 
 
 © 2006-2018 MicrosoftShutdown AnnouncementSupport
+
+© 2018-2020 Support by nguyen anh dung
