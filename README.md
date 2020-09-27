@@ -24,4 +24,4 @@ The demo then deserializes the xml file into an nmaprun object and dumps it’s 
 
 © 2006-2018 MicrosoftShutdown AnnouncementSupport
 
-© 2018-2020 Support by nguyen anh dung
+2018-2020 Support by nguyen anh dung
